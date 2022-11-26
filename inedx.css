@@ -1,0 +1,415 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+     
+}
+nav{
+    background: #000000;
+   
+}
+.a_logo{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    text-decoration: none;
+    }
+    .a_logo:hover{
+        color: white;
+    }  
+.list_iteam{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    margin-left: 20px;
+    margin-top: 5px;
+   }
+    .nav_a{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        text-decoration: none;
+         color: #63BFBE;
+        }
+        .nav_a:hover{
+            color: #63BFBE;
+        }
+        .list{
+            display: flex;
+        }
+.logo_end{
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFFFFF;
+    }
+.logo_end:hover{
+    color: #FFFFFF;
+}
+.fa-solid{
+    color:blue;
+}
+/* ---------------------------------nav end---------------------------------- */
+.search{
+    width: 150%;
+    border: 1px solid rgb(146, 113, 113);
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    }
+
+
+.div_input{
+    display: flex;
+    margin-top: 50px;
+   justify-content: space-evenly;
+}
+.box{
+    width: 150px;
+}
+.fa-brands{
+    color: green;
+    margin-left: 10px;
+}
+.div_telegram{
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+.number{
+   margin-left: 10px;
+    font-weight: 400;
+    font-size: 18px;
+    color: #000000;
+    }
+.zvonok{
+    margin-left: 80px;
+}
+/* ------------------------------------------section end ---------------------------------------------*/
+.mini_card{
+    display: flex;
+    align-items: center;
+    margin-top: 24px;
+    background-color: cornsilk;
+}
+.penal{
+    margin-top: 10px;
+    margin-left: 10px;  
+    color: #63BFBE;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    }
+.peregorod{
+    margin-left: 70px;
+}
+.penal_1{
+    margin-top: 10px;
+    margin-left: 10px;  
+    color: #000000;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+}
+/* ---------------------------------section2 end--------------------------- */
+.katalog{
+    padding-top: 32px;
+}
+.div_glavniy{
+    display: flex;
+}
+.glavniy{
+    margin-left: 10px;
+    color: #000000;
+    font-weight: 400;
+    font-size: 14px;
+    }
+    .glavniy_2{
+        font-weight: 400;
+        font-size: 14px;
+        margin-left: 10px;
+        color: #ACACAC;
+  }
+  .pastga{
+    color: chartreuse;
+    margin-top: 5px;
+  }
+  .div_pastga{
+    display: flex; 
+    margin-left: 200px; 
+  }
+  .pop{
+    
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 140%;
+      /* or 25px */
+      color: #000000;
+      margin-left: 10px;
+      }
+      .tip{
+          font-family: 'Roboto';
+          font-style: normal;
+          font-weight: 700;
+          font-size: 20px;
+          line-height: 140%;
+          /* identical to box height, or 28px */
+          color: #000000;
+                }
+.vse{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+/* or 22px */
+
+
+color: #000000;
+}
+.vse2{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+    /* dark_blue */
+    color: #63BFBE;
+    }
+    .card_1{
+        background: rgb(173, 93, 66);
+    }
+    .card_small{
+        margin-left: 20px;
+    }
+    .card_21{
+        display: flex;
+        align-items: center;
+    }
+    .card_2{
+        background: lightgoldenrodyellow;
+    }
+.stelaj{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    /* or 25px */
+    /* light_grey */
+    color: #ACACAC;
+    margin-left: 10px;
+    }
+.stelaj_2{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 140%;
+    /* or 25px */
+    /* grey */
+    color: #0e0c0c;
+    }
+    .rubl{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 140%;
+        /* or 25px */
+        color: #000000;
+        margin-left: 10px;
+            }
+.zakaz{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+    text-align: center;
+    /* dark_blue */
+    color: #63BFBE;
+    background: white;
+    margin-top: 5px;
+    border: none;
+    width: 100%;
+    border-top:1px solid  rgb(132, 105, 105) ;
+    background: lightgoldenrodyellow;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    }
+.material{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+    /* dark_blue */
+    color: #63BFBE;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    border: 4px dotted blue;
+ 
+    }
+    .nol{
+        color: #63BFBE ;
+    }
+    .ranglar{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+.sveta_2{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+    /* dark_blue */
+    color: #63BFBE;
+    background: white;
+    padding: 5px 40px ;
+    border: 4px dotted blue;
+
+    }
+    .card_4{
+        background: lightgoldenrodyellow;
+    }
+    .card_4_2{
+        margin-left: 20px;
+    }
+.perviy{
+    padding-top: 10px;
+}
+.chitat{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+    text-decoration-line: underline;
+    /* dark_blue */
+    color: #63BFBE;
+}
+.nachalo{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+/* or 22px */
+/* black */
+color: #000000;
+}
+    
+
+
+.perviy{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 140%;
+/* or 25px */
+/* black */
+color: #000000;
+}
+.card_6{
+ background: lightgoldenrodyellow;
+}
+/* -----------------------------------------------footer------------------------------------------------ */
+.prava{
+    margin-top: 50px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+    /* grey */
+    color: #767676;
+    }
+.ru{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 140%;
+/* or 25px */
+/* black */
+color: #000000;
+}
+.blog{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+/* or 22px */
+/* black */
+color: #000000;
+}
+.svyaz{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 140%;
+    /* or 25px */
+    /* black */
+    
+    color: #000000;
+    
+    }
+            
+
+
+            
+            
+
+
+
+
+
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
